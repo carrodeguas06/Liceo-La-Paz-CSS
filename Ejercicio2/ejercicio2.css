@@ -1,0 +1,32 @@
+.principal{
+    border: 2px solid black;
+    background-color: rgb(220, 139, 18);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.caja{
+    color: black;
+    background-color: aqua;
+    border: 2px solid;
+    border-color: rgb(131, 112, 112);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    display: block;
+    line-height: 100px;
+    
+}
+
+.colocar{
+    position: absolute;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
