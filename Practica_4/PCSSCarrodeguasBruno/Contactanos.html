@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="icon" href="IMG/favicon.png" type="image/png">
+    <link rel="stylesheet" href="Contacctanos.css">
+</head>
+
+<body>
+    <header>
+        <a href="Index.html#logo"><img id="logo" src="IMG/Carrodeviajes.png" alt="Logo"></a>
+    </header>
+
+        <div id="titulo"><h1>Nuestras Redes Sociales</h1></div>
+        <nav>
+        <a href="https://www.instagram.com">Instagram</a>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://x.com">X</a>
+        <a href="https://www.tiktok.com">TikTok</a>
+        <a href="mailto:brunocarrodeguasdiaz06@liceolapaz.net">EMail</a>
+        </nav>
+    
+
+    <main>
+        <h2>Envianos un mensaje</h2>
+
+        <fieldset>
+
+            <p>
+                <label for="nom">Nombre: </label><input type="text" id="nom" name="nom" placeholder="Nombre" required>
+                <label for="apell">Apellido: </label><input type="text" name="apell" id="apell" placeholder="Apellido" required>
+            </p>
+    
+            <p>
+                <label for="">Teléfono:</label><br>
+                <input type="tel" id="numero" name="numero" placeholder="Ej: 123456789" required>
+            </p>
+    
+            <p>
+                Género:<br>
+                <input type="radio" id="hombre" name="genero" value="hombre">
+                <label for="hombre">Hombre</label><br>
+    
+                <input type="radio" id="mujer" name="genero" value="mujer">
+                <label for="mujer">Mujer</label><br>
+    
+                <input type="radio" id="otro" name="genero" value="otro">
+                <label for="otro">Otro</label><br>
+            </p>
+    
+            <p>
+                <label for="mensaje">Introduzca el mensaje que sera enviado:</label><br>
+                <textarea name="mensaje" id="mensaje" rows="10" cols="60" placeholder="Introduzca su mensaje"></textarea>
+            </p>
+
+            <p>
+
+                <label for="oferta">Elige la oferta sobre la que trataras:</label>
+                <br>
+                <select name="oferta" id="oferta">
+
+                    <option value="oferta" disabled selected>Selecciona tu oferta</option>
+                    <option value="Japón">Japón</option>
+                    <option value="Francia">Francia</option>
+                    <option value="Italia">Italia</option>
+                    <option value="España">España</option>
+                    <option value="Estados-Unidos">Estados Unidos</option>
+                 
+                </select>
+            </p>
+
+            <p><input type="submit" onclick="alert('Se ha enviado su mensaje')"> <input type="reset" onclick="alert('Se ha reiniciado el formulario')"></p>
+        </fieldset>
+    </main>
+
+    <footer>
+        <p>Siguenos en nuestras <br>
+        REDES SOCIALES</p>
+
+        <div><a href="Contactanos.html">Contactanos</a></div>
+
+        <p>Carrodeviajes S.L.</p>
+    </footer>    
+    
+</body>
+</html>
